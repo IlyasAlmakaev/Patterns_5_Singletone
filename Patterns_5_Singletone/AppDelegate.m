@@ -7,6 +7,7 @@
 //
 
 #import "AppDelegate.h"
+#import "SingletoneObject.h"
 
 @interface AppDelegate ()
 
@@ -16,7 +17,11 @@
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-    // Override point for customization after application launch.
+    
+    [[SingletoneObject singletone] setTempProperty:@"Hello 2 you!"];
+    NSLog(@"%@", [[SingletoneObject singletone] tempProperty]);
+    
+    
     return YES;
 }
 

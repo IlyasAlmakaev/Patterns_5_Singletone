@@ -13,6 +13,7 @@
 		283D2C4E1F152D27006819E0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 283D2C4C1F152D27006819E0 /* Main.storyboard */; };
 		283D2C501F152D27006819E0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 283D2C4F1F152D27006819E0 /* Assets.xcassets */; };
 		283D2C531F152D27006819E0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 283D2C511F152D27006819E0 /* LaunchScreen.storyboard */; };
+		283D2C5C1F152D49006819E0 /* SingletoneObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 283D2C5B1F152D49006819E0 /* SingletoneObject.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,8 @@
 		283D2C4F1F152D27006819E0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		283D2C521F152D27006819E0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		283D2C541F152D27006819E0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		283D2C5A1F152D49006819E0 /* SingletoneObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SingletoneObject.h; sourceTree = "<group>"; };
+		283D2C5B1F152D49006819E0 /* SingletoneObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SingletoneObject.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +61,8 @@
 		283D2C421F152D27006819E0 /* Patterns_5_Singletone */ = {
 			isa = PBXGroup;
 			children = (
+				283D2C5A1F152D49006819E0 /* SingletoneObject.h */,
+				283D2C5B1F152D49006819E0 /* SingletoneObject.m */,
 				283D2C461F152D27006819E0 /* AppDelegate.h */,
 				283D2C471F152D27006819E0 /* AppDelegate.m */,
 				283D2C491F152D27006819E0 /* ViewController.h */,
@@ -151,6 +156,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				283D2C5C1F152D49006819E0 /* SingletoneObject.m in Sources */,
 				283D2C4B1F152D27006819E0 /* ViewController.m in Sources */,
 				283D2C481F152D27006819E0 /* AppDelegate.m in Sources */,
 				283D2C451F152D27006819E0 /* main.m in Sources */,
